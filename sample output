@@ -1,0 +1,9 @@
+---- Credit Card Fraud Detection System ----
+Enter Profession ['ACCOUNTANT', 'ENGINEER', 'LAWYER', 'MANAGER', 'TEACHER']: Engineer
+Enter Annual Income: 85000
+Enter Transaction Amount: 2300
+Enter Merchant Type ['CLOTHING', 'ELECTRONICS', 'GROCERY', 'RESTAURANT', 'TRAVEL']: Electronics
+Enter Transaction Location ['CHICAGO', 'HOUSTON', 'LOS ANGELES', 'MIAMI', 'NEW YORK']: Miami
+
+>>> Prediction Result <<<
+This transaction appears to be LEGITIMATE.
