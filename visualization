@@ -1,9 +1,19 @@
----- Credit Card Fraud Detection System ----
-Enter Profession ['ACCOUNTANT', 'ENGINEER', 'LAWYER', 'MANAGER', 'TEACHER']: Engineer
-Enter Annual Income: 85000
-Enter Transaction Amount: 2300
-Enter Merchant Type ['CLOTHING', 'ELECTRONICS', 'GROCERY', 'RESTAURANT', 'TRAVEL']: Electronics
-Enter Transaction Location ['CHICAGO', 'HOUSTON', 'LOS ANGELES', 'MIAMI', 'NEW YORK']: Miami
+# 🔐 Guarding Transactions with AI-Powered Credit Card Fraud Detection
 
->>> Prediction Result <<<
-This transaction appears to be LEGITIMATE.
+AI-based system to detect fraudulent credit card transactions using a Random Forest model.
+
+![Fraud Distribution](visuals/fraud_distribution.png)
+![Feature Importance](visuals/feature_importance.png)
+
+## 🚀 Features
+- Machine Learning classification with Random Forest
+- Interactive demo using Gradio
+- Auto-generated visual insights (Seaborn, Matplotlib)
+- Label Encoding for categorical inputs
+
+## 🛠 How to Run
+
+```bash
+pip install -r requirements.txt
+python fraud_model.py       # Train the model and generate visualizations
+python app.py               # Launch interactive prediction
